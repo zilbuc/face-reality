@@ -307,10 +307,9 @@ header {
   color: #fff;
 }
 
-.port figcaption span:before {
+/* .port figcaption span:before {
   content: 'by ';
-}
-
+} */
 .port figcaption a {
   text-align: center;
   padding: 8px 15px;
