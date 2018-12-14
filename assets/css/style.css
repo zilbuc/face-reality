@@ -307,9 +307,6 @@ header {
   color: #fff;
 }
 
-/* .port figcaption span:before {
-  content: 'by ';
-} */
 .port figcaption a {
   text-align: center;
   padding: 8px 15px;
@@ -400,6 +397,12 @@ header {
 
 .item-space {
   margin-bottom: 30px;
+  max-height: 255px;
+}
+
+.project-container {
+  max-height: 570px;
+  overflow: hidden;
 }
 
 /* /////////////////////////////////////////////////////////////////////
@@ -639,6 +642,14 @@ footer {
   .service-wrap p {
     font-size: 11px;
     padding: 0px 35px;
+  }
+
+  .project-container {
+    max-height: 480px;
+  }
+
+  .item-space {
+    max-height: 215px;
   }
 }
 
