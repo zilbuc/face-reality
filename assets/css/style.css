@@ -401,8 +401,13 @@ header {
 }
 
 .project-container {
-  max-height: 570px;
+  max-height: 560px;
   overflow: hidden;
+  transition: all 3s ease-in-out;
+}
+
+.project-container.expanded {
+  max-height: 5000px;
 }
 
 /* /////////////////////////////////////////////////////////////////////

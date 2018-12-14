@@ -188,21 +188,10 @@ $(document).ready(function() {
 //
 
 ///////////////////////////////
-// Show all portfolio
+// Show / hide all portfolio items
 ///////////////////////////////
 
 function showAllPortfolio() {
-  $('.project-container').css('max-height', '100%');
+  $('.project-container').toggleClass('expanded');
+  $('.big').text('View all') ? $('.big').text('Close') : $('.big').text('View all');
 }
-
-// $(document).ready(function() {
-//
-//   $("#testimonial-container").owlCarousel({
-//
-//     navigation: false, // Show next and prev buttons
-//     slideSpeed: 700,
-//     paginationSpeed: 400,
-//     singleItem: true,
-//   });
-//
-// });
