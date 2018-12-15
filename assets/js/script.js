@@ -193,5 +193,7 @@ $(document).ready(function() {
 
 function showAllPortfolio() {
   $('.project-container').toggleClass('expanded');
-  $('.big').text('View all') ? $('.big').text('Close') : $('.big').text('View all');
+  var buttonText = $('.big').text();
+  (buttonText === 'View all') ? $('.big').text('Close'): $('.big').text('View all');
+  // $('.big').text('View all') ? $('.big').text('Close') : $('.big').text('View all');
 }

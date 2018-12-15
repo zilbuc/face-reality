@@ -4,13 +4,13 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <info@face-reality.lt>';
+$from = 'Face-Reality contact form <info@face-reality.lt>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <Zilvinas@face-reality.lt>';
+$sendTo = 'Me <Zilvinas@face-reality.lt>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from Face-Reality contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email

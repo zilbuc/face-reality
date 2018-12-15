@@ -400,6 +400,7 @@ header {
   max-height: 255px;
 }
 
+/* Use when No of projects increase
 .project-container {
   max-height: 560px;
   overflow: hidden;
@@ -408,8 +409,7 @@ header {
 
 .project-container.expanded {
   max-height: 5000px;
-}
-
+} */
 /* /////////////////////////////////////////////////////////////////////
 //  06 - Testimonial
 /////////////////////////////////////////////////////////////////////*/
@@ -521,6 +521,24 @@ header {
 
 .form-group input, .form-group textarea {
   color: #FFF;
+}
+
+#submit {
+  margin-bottom: 15px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  /* outline: thin dotted; */
+  outline: 5px auto #66afe9;
+  /* outline-offset: -1px; */
+  color: #fff;
+}
+
+.alert {
+  border: 1px solid #66afe9;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 0;
 }
 
 /*Social media links*/
@@ -649,10 +667,10 @@ footer {
     padding: 0px 35px;
   }
 
+  /* Use when No of projects increase
   .project-container {
     max-height: 480px;
-  }
-
+  } */
   .item-space {
     max-height: 215px;
   }
