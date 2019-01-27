@@ -17,5 +17,6 @@
     "url": "https://github.com/zilbuc/face-reality/issues"
   },
   "homepage": "https://github.com/zilbuc/face-reality#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {}
 }
